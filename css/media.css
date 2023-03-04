@@ -379,6 +379,8 @@
 @media(max-width: 460px){
     .navbar-container{
         min-width: 320px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .home-slider__heading{
