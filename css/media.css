@@ -377,6 +377,10 @@
 
 
 @media(max-width: 460px){
+    .navbar-container{
+        min-width: 320px;
+    }
+
     .home-slider__heading{
         font-size: 48px;
         text-align: center;
