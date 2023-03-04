@@ -255,22 +255,22 @@ body {
 .home-slider-bg-img__1{
     /* background-image: url(/images/ground/home_1.jpg); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-    url(/images/ground/home_1.jpg);
+    url("../images/ground/home_1.jpg");
 }
 .home-slider-bg-img__2{
     /* background-image: url(/images/ground/home_2.jpg); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/images/ground/home_2.jpg);
+    url("../images/ground/home_2.jpg");
 }
 .home-slider-bg-img__3{
     /* background-image: url(/images/ground/home_3.jpg); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/images/ground/home_3.jpg);
+    url("../images/ground/home_3.jpg");
 }
 .home-slider-bg-img__4{
     /* background-image: url(/images/ground/home_4.jpg); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/images/ground/home_4.jpg);
+    url("../images/ground/home_4.jpg");
 }
 [data-animate]{
     opacity: 0;
