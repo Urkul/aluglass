@@ -381,4 +381,27 @@
         font-size: 48px;
         text-align: center;
     }
+
+    .home-slider__slogan{
+        text-align: center;
+    }
+
+    .home-slider__text{
+        text-align: center;
+    }
+
+    .best-works__top-title,
+    .advantages__top-title,
+    .services__top-title-name,
+    .how-work__top-title-name,
+    .services__top-title-name,
+    .services__top-title-name,
+    .bestworks-head,
+    .contacts-head{
+        font-size: 40px
+    }
+
+    .contacts-form {
+        width: 320px;
+    }
 }
