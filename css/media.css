@@ -336,10 +336,10 @@
 }
 
 /* xs => small (sl)*/
-@media(max-width:567px){
+@media(max-width: 567px){
     .home-slider__heading{
         font-size: 62px;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .sect-bestworks-light-block {
@@ -372,5 +372,13 @@
     }
     .navbar-container{
         min-width: 350px;
+    }
+}
+
+
+@media(max-width: 460px){
+    .home-slider__heading{
+        font-size: 48px;
+        text-align: center;
     }
 }
