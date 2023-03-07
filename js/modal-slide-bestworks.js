@@ -12,6 +12,8 @@ $(document).ready(function () {
     // открыть окно
     bestworksCardImg.on("click", function () {
         modalSlideBestworks.toggleClass('is-open-modal-bestworks-img');
+        $('body').toggleClass('no_scroll');
+        $('header').toggleClass('header_none');
         currentBestworkImg = $(this).attr("data-bestworks-img");
 
         if (currentBestworkImg == "01") {
@@ -139,5 +141,7 @@ $(document).ready(function () {
     // закрыть окно
     modalClouseButton.on("click", function () {
         modalSlideBestworks.toggleClass('is-open-modal-bestworks-img');
+        $('body').toggleClass('no_scroll');
+        $('header').toggleClass('header_none');
     });
 });

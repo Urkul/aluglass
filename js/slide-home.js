@@ -42,11 +42,13 @@ document.addEventListener('DOMContentLoaded', function () {
         on: {
             init() {
                 this.el.addEventListener('mouseenter', () => {
-                    this.autoplay.stop();
+                    // this.autoplay.stop();
+                    this.autoplay.start();
                 });
 
                 this.el.addEventListener('mouseleave', () => {
-                    this.autoplay.start();
+                    // this.autoplay.start();
+                    this.autoplay.stop();
                 });
             }
         },

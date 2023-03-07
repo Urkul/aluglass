@@ -58,15 +58,20 @@ $(function () {
     const readMore = $(".read-more");
     const modalAdvantages = $(".modal-sect-advantages");
     const modalClouseAdvantagesButton = $(".modal-clouse__advantages-button");
+    const header = $(".header");
 
     // открыть окно
     readMore.on("click", function () {
         modalAdvantages.toggleClass('is-open-modal-bestworks-img');
+        $('body').addClass('no_scroll');
+        header.addClass('header_none');
     });
 
     // закрыть окно
     modalClouseAdvantagesButton.on("click", function () {
         modalAdvantages.toggleClass('is-open-modal-bestworks-img');
+        $('body').removeClass('no_scroll');
+        header.removeClass('header_none');
     });
 });
 

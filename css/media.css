@@ -129,9 +129,9 @@
         visibility: hidden;
         opacity: 0;
         background-color: #202328;
-        right: 35px;
+        right: 50px;
         top: -10px;
-        border-radius: 0 5px 0 5px;
+        border-radius: 0 10px 0 10px;
         overflow: hidden; /* обрезать лишнее */
     }
     .top-menu-item{
@@ -384,7 +384,7 @@
     }
 
     .home-slider__heading{
-        font-size: 48px;
+        font-size: 44px;
         text-align: center;
     }
 
@@ -404,7 +404,20 @@
     .services__top-title-name,
     .bestworks-head h3,
     .contacts-head h3{
-        font-size: 40px
+        font-size: 36px;
+    }
+
+    .section-title__desc{
+        font-size: 22px;
+    }
+
+    .best-item__desc{
+        font-size: 18px;
+    }
+
+    .best-item__desc::before,
+    .best-item__desc::after{
+        background-position: 3px 5px;
     }
 
     .contacts-form {

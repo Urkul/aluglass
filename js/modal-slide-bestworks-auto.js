@@ -176,7 +176,7 @@ $(document).ready(function () {
             thumbs: {
                 swiper: {
                     el: '.image-mini-slider',
-                    slidesPerView: 5,
+                    slidesPerView: 8,
 
                     simulateTouch: true,
                     touchRadio: 1,
@@ -206,6 +206,8 @@ $(document).ready(function () {
         
         // открыть модальнное окно
         modalBestworksImage.toggleClass('is-open-wrapper-bestworks-image-slider');
+        $('body').toggleClass('no_scroll');
+        $('header').toggleClass('header_none');
     }
 
     bestItem.on('click', toggleModal);
